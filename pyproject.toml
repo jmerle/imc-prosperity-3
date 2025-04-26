@@ -1,0 +1,45 @@
+[project]
+name = "prosperity3"
+version = "0.0.0"
+requires-python = ">=3.12, <3.13"
+dependencies = [
+    "jsonpickle>=4.0.2",
+    "numpy>=2.2.3",
+    "plotly>=6.0.1",
+    "ipywidgets>=8.1.5",
+    "pandas>=2.2.3",
+    "scipy>=1.15.2",
+    "prosperity3submit>=0.1.1",
+    "prosperity3bt>=0.12.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "jupyterlab>=4.4.0",
+    "mypy>=1.15.0",
+    "notebook>=7.0.7",
+    "ruff>=0.9.9",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[tool.mypy]
+ignore_missing_imports = true
+# Workaround for https://github.com/python/mypy/issues/3115
+disable_error_code = "abstract"
+
+[[tool.mypy.overrides]]
+module = "prosperity3.algorithms.datamodel"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "prosperity3.submissions.*"
+ignore_errors = true
