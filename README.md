@@ -42,19 +42,6 @@ I've also written an optimizer, available in the [jmerle/imc-prosperity-3-optimi
 | 4 | 591,357 | 51,801 | 134,650 | 186,451 |
 | 5 | 981,993 | 36,998 | 353,637 | 390,636 |
 
-### Profit / loss by product
-
-| Round | RAINFOREST_RESIN | KELP | SQUID_INK | CROISSANTS | JAMS | DJEMBES | PICNIC_BASKET1 | PICNIC_BASKET2 | VOLCANIC_ROCK | VOLCANIC_ROCK_VOUCHER_9500 | VOLCANIC_ROCK_VOUCHER_9750 | VOLCANIC_ROCK_VOUCHER_10000 | VOLCANIC_ROCK_VOUCHER_10250 | VOLCANIC_ROCK_VOUCHER_10500 | MAGNIFICENT_MACARONS |
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-| 1 (before rerun) | 18,312 | 4,952 | -17,873 | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| 1 (after rerun) | 38,970 | 4,363 | 18,268 | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| 2 (before hardcoding update) | 37,000 | 5,181 | 894 | -3,003 | 10,581 | -4,045 | 39,940 | -6,504 | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| 2 (after hardcoding update) | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| 3 (before manual update) | 36,939 | 4,667 | -7,326 | 0 | -34,429 | 0 | 13,912 | -5,964 | 105,806 | 24,176 | 14,334 | -11,632 | -6,595 | -1,485 | N/A |
-| 3 (after manual update) | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | N/A |
-| 4 | 37,575 | 4,383 | 0 | 0 | 0 | 0 | 14,790 | 0 | 48,195 | 26,414 | 27,482 | -18,349 | -5,840 | 0 | 0 |
-| 5 | 38,865 | 5,846 | 5,695 | 18,307 | 0 | 0 | 6,010 | 0 | 109,744 | 29,976 | 30,601 | 28,517 | 5,727 | -2,677 | 77,028 |
-
 ### Leaderboard position
 
 | Round | Overall | Manual | Algo | Country (NL) |
@@ -80,3 +67,16 @@ I've also written an optimizer, available in the [jmerle/imc-prosperity-3-optimi
 | 3 (after manual update) | Same as above | Same as above | Same as above |
 | 4 | [Link](https://github.com/jmerle/imc-prosperity-3/blob/master/src/submissions/round4.py) | [Link](https://jmerle.github.io/imc-prosperity-3-visualizer/?open=https://raw.githubusercontent.com/jmerle/imc-prosperity-3/master/logs/round4-submission.log) | [Link](https://jmerle.github.io/imc-prosperity-3-visualizer/?open=https://raw.githubusercontent.com/jmerle/imc-prosperity-3/master/logs/round4-final.log) |
 | 5 | [Link](https://github.com/jmerle/imc-prosperity-3/blob/master/src/submissions/round5.py) | [Link](https://jmerle.github.io/imc-prosperity-3-visualizer/?open=https://raw.githubusercontent.com/jmerle/imc-prosperity-3/master/logs/round5-submission.log) | [Link](https://jmerle.github.io/imc-prosperity-3-visualizer/?open=https://raw.githubusercontent.com/jmerle/imc-prosperity-3/master/logs/round5-final.log) |
+
+### Profit / loss by product
+
+| Round | RAINFOREST_RESIN | KELP | SQUID_INK | CROISSANTS | JAMS | DJEMBES | PICNIC_BASKET1 | PICNIC_BASKET2 | VOLCANIC_ROCK | VOLCANIC_ROCK_VOUCHER_9500 | VOLCANIC_ROCK_VOUCHER_9750 | VOLCANIC_ROCK_VOUCHER_10000 | VOLCANIC_ROCK_VOUCHER_10250 | VOLCANIC_ROCK_VOUCHER_10500 | MAGNIFICENT_MACARONS |
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+| 1 (before rerun) | 18,312 | 4,952 | -17,873 | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| 1 (after rerun) | 38,970 | 4,363 | 18,268 | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| 2 (before hardcoding update) | 37,000 | 5,181 | 894 | -3,003 | 10,581 | -4,045 | 39,940 | -6,504 | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| 2 (after hardcoding update) | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| 3 (before manual update) | 36,939 | 4,667 | -7,326 | 0 | -34,429 | 0 | 13,912 | -5,964 | 105,806 | 24,176 | 14,334 | -11,632 | -6,595 | -1,485 | N/A |
+| 3 (after manual update) | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | Same as above | N/A |
+| 4 | 37,575 | 4,383 | 0 | 0 | 0 | 0 | 14,790 | 0 | 48,195 | 26,414 | 27,482 | -18,349 | -5,840 | 0 | 0 |
+| 5 | 38,865 | 5,846 | 5,695 | 18,307 | 0 | 0 | 6,010 | 0 | 109,744 | 29,976 | 30,601 | 28,517 | 5,727 | -2,677 | 77,028 |
