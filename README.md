@@ -42,7 +42,7 @@ I've also written an optimizer, available in the [jmerle/imc-prosperity-3-optimi
 | 4 | 591,357 | 51,801 | 134,650 | 186,451 |
 | 5 | 981,993 | 36,998 | 353,637 | 390,636 |
 
-### Leaderboard position
+### Leaderboard positions
 
 | Round | Overall | Manual | Algo | Country (NL) |
 |-|-|-|-|-|
